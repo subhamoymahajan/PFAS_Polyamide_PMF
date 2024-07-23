@@ -1,0 +1,49 @@
+
+;OWT3	8	15.999400	-0.834	A	3.15058e-01	6.36386e-01	; TIP3p O
+;HWT3	1	1.008000	0.417	A	0.0	0.0	; TIP3p H
+
+[ moleculetype ]
+; molname      nrexcl
+SOL		2
+
+[ atoms ]
+; id   at type	res nr	residu name	at name		cg nr	charge
+1       OWT3    1       SOL              OW             1       -0.834
+2       HWT3    1       SOL             HW1             1        0.417
+3       HWT3    1       SOL             HW2             1        0.417
+
+[ bonds ]
+; i	j	funct	length	force.c.
+1 	2	1	0.09572	376560.0 0.09572	376560.0 
+1	3	1	0.09572	376560.0 0.09572	376560.0 
+  
+[ angles ]
+; i	 j	k	funct	angle	force.c.
+2 	 1	3	1	104.52	460.24	104.52	460.24
+
+[ moleculetype ]
+; Name	nrexcl
+CL	3
+
+[ atoms ]
+;nr	type	resnr	residue	atom	cgnr	charge	mass
+1	CLA	1	CLA	CL	1	-1.0	35.45
+
+
+[ moleculetype ]
+; Name	nrexcl
+NA	3
+
+[ atoms ]
+;nr	type	resnr	residue	atom	cgnr	charge	mass
+1	SOD	1	SOD	NA	1	1.0	22.98977
+
+
+[ moleculetype ]
+; Name	nrexcl
+K	3
+
+[ atoms ]
+;nr	type	resnr	residue	atom	cgnr	charge	mass
+1	POT	1	POT	NA	1	1.0	22.98977
+	
